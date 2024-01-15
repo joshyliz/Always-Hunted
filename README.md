@@ -1,3 +1,5 @@
+![](6ad15442d0d4355e74f573beffc2bf81a720fbae.jpg)
+
 # Always-Hunted
 A mod for The Long Dark that makes it so that you are always hunted by a bear
 
