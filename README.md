@@ -16,5 +16,5 @@ If you are still having trouble go here for additional help: https://the-long-da
 # How it works
 This mod is The Hunted Challenge Part 1 but in survival mode, so you can get the rifle and access places that are blocked in the regular challenge.
 
-#!Warning
+# !Warning
 If the bear gets stuck somewhere it is not the mod's fault, the bear even in the official challenge is a little buggy.
