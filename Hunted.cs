@@ -18,13 +18,14 @@ internal sealed class Hunted : MelonMod
     string? sceneName = GameManager.m_ActiveScene;
     Action_SpawnHuntedChallengeBear spawnBear = new Action_SpawnHuntedChallengeBear();
 
-    if(sceneName != null && GameManager.IsOutDoorsScene(sceneName) && GameManager.IsActiveScene(sceneName) && !spawnBear.ChallengeBearIsActive())
+    if(sceneName != null && GameManager.IsOutDoorsScene(sceneName) && GameManager.IsActiveScene(sceneName) && !spawnBear.ChallengeBearIsActive() && Settings.options.bearEnabled == true)
     {
       spawnBear.minSpawnDistance = Settings.options.minSpawn;
       spawnBear.maxSpawnDistance = Settings.options.maxSpawn;
-      if(spawnBear.SpawnChallengeBearNearPlayer())
+
+      if((Settings.options.bearEnabledInFRBL && sceneName == "LongRailTransitionZone") && spawnBear.SpawnChallengeBearNearPlayer())
       {
-        Console.WriteLine("Bear Spawned");
+        Console.WriteLine("Bear Spawned At " + DateTime.Now);
       }
     }
   }
