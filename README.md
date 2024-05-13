@@ -20,6 +20,7 @@ This mod is The Hunted Challenge Part 1 but in survival mode, so you can get the
 
 # How to customize
 Since the ModSettings mod broke there is now just a json file in the mod folder that you can config.
+
 The file is call "BearSettings.json" if its not there start the game and one should be made.
 If you don't know what mod folder I am talking about its the same folder you dragged the Always Hunted.dll into.
 
