@@ -25,6 +25,7 @@ The file is call "BearSettings.json" if its not there start the game and one sho
 If you don't know what mod folder I am talking about its the same folder you dragged the Always Hunted.dll into.
 
 Change what you want, save the file then hit F7 and go into and out of a building to reload the changed settings.
+
 There are 4 things you can change in the settings you can change in the file:
 1. MinimumSpawnDistance | This is the minimum distance the bear can spawn from you. | The defualt is 75.
 2. MaximumSpawnDistance | This is the minimum distance the bear can spawn from you. | The defualt is 200.
